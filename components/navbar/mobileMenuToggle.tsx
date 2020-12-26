@@ -12,6 +12,7 @@ const MobileMenuToggle = ({ isOpen, setIsOpen }: Props) => {
         isOpen ? 'bg-primary' : ''
       } `}
       onClick={() => setIsOpen(!isOpen)}
+      aria-label="toggle open/close mobile menu"
     >
       {isOpen ? (
         <svg

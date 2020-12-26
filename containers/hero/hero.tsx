@@ -27,20 +27,23 @@ const Hero = () => {
             <img
               className="hero-brand-logo"
               src="/images/brandLogos/Juul_logo.svg"
+              alt="juul logo"
             />
             <img
               className="hero-brand-logo ml-48px"
               src="/images/brandLogos/cocaCola_logo.svg"
+              alt="cocacola logo"
             />
             <img
               className="hero-brand-logo ml-48px"
               src="/images/brandLogos/hourEnergy_logo.svg"
+              alt="5 hour energy logo"
             />
           </div>
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 h-full mx-auto lg:max-w-1.5xl xl:max-w-4xl lg:py-16 md:py-20 lg:py-28">
-        <img src={'/images/hero/homepage-hero.jpg'} />
+        <img src={'/images/hero/homepage-hero.jpg'} alt="skupos illustration" />
       </div>
     </div>
   );

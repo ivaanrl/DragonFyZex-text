@@ -16,7 +16,7 @@
   }
 
   .primary-button {
-    @apply bg-primary text-white rounded-full;
+    @apply bg-primary text-white rounded-full hover:bg-gray-800;
   }
 
   .secondary-button {

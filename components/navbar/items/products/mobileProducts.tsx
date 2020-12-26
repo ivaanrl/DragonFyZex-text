@@ -12,7 +12,7 @@ const Accordion = ({ expanded, setExpanded, children }: AccordionProps) => {
   const isOpen = expanded;
 
   return (
-    <div className="questions__container">
+    <div>
       <motion.button
         className="flex flex-row items-center justify-between pr-34px w-full focus:outline-none "
         initial={false}
@@ -22,7 +22,7 @@ const Accordion = ({ expanded, setExpanded, children }: AccordionProps) => {
           Products
         </div>
         <motion.div
-          className="questions__chevron__container"
+          className="remove-button-outline"
           animate={{
             rotate: isOpen ? 180 : 0,
           }}

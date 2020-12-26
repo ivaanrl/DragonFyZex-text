@@ -1,9 +1,13 @@
 const colors = require('tailwindcss/colors');
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: ['./containers/**/*.tsx', './components/**/*.tsx', './styles/**.css'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+    },
     extend: {
       colors: {
         primary: 'rgba(5,170,119,1)',

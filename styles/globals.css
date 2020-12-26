@@ -30,4 +30,8 @@
   .hero-brand-logo {
     @apply w-auto h-8 mb-12 md:mb-0;
   }
+
+  .remove-button-outline {
+    @apply focus:outline-none;
+  }
 }

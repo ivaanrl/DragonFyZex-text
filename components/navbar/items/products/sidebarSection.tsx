@@ -12,7 +12,7 @@ const SidebarSection = ({ title, main, items }: Props) => {
   return (
     <div className="pr-34px mb-9">
       <div className="text-primary text-sm">{title}</div>
-      <button className="w-full flex flex-row items-center justify-between text-xl py-5 font-semibold hover:text-primary">
+      <button className="w-full flex flex-row items-center justify-between text-xl py-5 font-semibold hover:text-primary remove-button-outline">
         {main}
         <svg
           width="12"
@@ -27,7 +27,7 @@ const SidebarSection = ({ title, main, items }: Props) => {
         const subtitle = items[item].subtitle;
         return (
           <button
-            className="w-full flex flex-row items-center justify-between py-3 hover:text-primary text-left"
+            className="w-full flex flex-row items-center justify-between py-3 hover:text-primary text-left remove-button-outline"
             key={item}
           >
             <div>

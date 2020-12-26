@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="container flex flex-col mx-auto max-w-screen-xl relative py-16 lg:py-28 px-6">
       <div className="w-full lg:w-110 ">
-        <h1 className="font-semibold text-5xl lg:text-6xl mb-5  max-w-lg lg:w-full">
+        <h1 className="font-semibold text-5xl lg:text-5xl mb-5  max-w-lg lg:w-full">
           Connecting the convenience retail industry
         </h1>
         <h3 className="mb-10 text-xl max-w-lg lg:w-full">
@@ -12,10 +12,10 @@ const Hero = () => {
           independent stores, brands, and distributors on one platform.
         </h3>
         <div className="mb-16 flex flex-col w-full lg:flex-row lg:w-auto ">
-          <button className="button primary-button big-button mb-5 lg:mb-0">
+          <button className="button primary-button big-button mb-5 lg:mb-0 remove-button-outline">
             I'm a Retailer
           </button>
-          <button className="button secondary-button big-button lg:ml-24px">
+          <button className="button secondary-button big-button lg:ml-24px remove-button-outline">
             I'm a Brand
           </button>
         </div>

@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const Hero = () => {
   return (
     <div className="container flex flex-col mx-auto max-w-screen-xl relative py-16 lg:py-28 px-6">

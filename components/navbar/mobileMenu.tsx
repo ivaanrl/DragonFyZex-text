@@ -32,7 +32,7 @@ const MobileMenu = ({ isOpen, setIsOpen }: Props) => {
       animate="visible"
       initial="hidden"
       exit="hidden"
-      className="absolute top-0 left-0 bot-0 bottom-0 right-0 bg-white z-10 overflow-scroll"
+      className="absolute top-0 left-0 bot-0 -bottom-3 right-0 bg-white z-10 overflow-scroll"
     >
       <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
       <div className=" px-34px flex flex-col">

@@ -49,7 +49,7 @@ const Sidebar = ({ setShowSidebar }: Props) => {
         initial="hidden"
         animate="visible"
         exit="hidden"
-        className="h-full absolute top-0 bottom-0 left-0 bg-white w-max overflow-hidden pl-34px z-20"
+        className="h-full absolute top-0 bottom-0 left-0 bg-background w-max overflow-hidden pl-34px z-20"
         onMouseLeave={() => setShowSidebar(false)}
       >
         <div className="flex flex-row items-center h-96px">

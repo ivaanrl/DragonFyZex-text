@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <>
+    <div className="bg-background">
       <Navbar isOpen={isMobileMenuOpen} setIsOpen={setIsMobileMenuOpen} />
       <AnimatePresence>
         {isMobileMenuOpen && (
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
         )}
       </AnimatePresence>
       <Component {...pageProps} />
-    </>
+    </div>
   );
 }
 

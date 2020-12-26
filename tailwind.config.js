@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         primary: 'rgba(5,170,119,1)',
         text: '#000000',
+        background: '#fafafa',
       },
       stroke: {
         current: 'currentColor',
